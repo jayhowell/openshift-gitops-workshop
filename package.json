@@ -20,7 +20,9 @@
     "gulp": "^4.0.0",
     "yaml-js": "^0.2.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "antora": "3.1.9"
+  },
   "scripts": {
     "dev": "gulp",
     "clean": "gulp clean",

@@ -1,5 +1,5 @@
 name: openshift-gitops-workshop
-title: OpenShift GitOps Workshop
+title: OpenShift Ultimate GitOps Workshop
 version: master
 nav:
   - modules/ROOT/nav.adoc
