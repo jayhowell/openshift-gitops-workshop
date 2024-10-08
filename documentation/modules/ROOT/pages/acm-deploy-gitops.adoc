@@ -25,7 +25,7 @@ make sure to add a label if it’s not there yet: *rhdp_usage=development*
 
 image:image5.png[]
 
-Let’s just do *one more step*: This step insures that the lab user has the right permissions to create policies with policy generator. Login to your Cluster and click the + sign at the top.  Past the following yaml and click apply. 
+Let’s just do *one more step*: This step insures that our lab user has the right permissions to create policies with policy generator. Login to your Cluster and click the + sign at the top.  Past the following yaml and click apply. 
 
 [source,yaml,subs="+macros,attributes+"]
 ----
