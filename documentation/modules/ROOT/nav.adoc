@@ -74,7 +74,5 @@
 
 * xref:08-acpgitops.adoc[9. Using ACM + GitOps]
 
-
-
-* xref:06-conclusion.adoc[7. Conclusion]
+* xref:06-conclusion.adoc[8. Conclusion]
 ** xref:06-conclusion.adoc#Resources[Resources]
