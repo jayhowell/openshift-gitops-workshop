@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: documentation/modules/ROOT/examples/bgd
-    repoURL: https://github.com/openshiftdemos/openshift-gitops-workshop
+    repoURL: https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop
     targetRevision: master
   syncPolicy:
     automated:

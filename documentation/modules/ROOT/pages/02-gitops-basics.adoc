@@ -65,7 +65,7 @@ repository somewhere. You will be using the repository that contains this
 workshop and its documentation as the source of the manifests that define the
 application state:
 
-https://github.com/OpenShiftDemos/openshift-gitops-workshop[https://github.com/OpenShiftDemos/openshift-gitops-workshop,window="_blank']
+https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop[https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop,window="_blank']
 
 === Clone the Repository
 
@@ -75,7 +75,7 @@ make very small changes to some of the files for the examples:
 [.console-input]
 [source,bash,subs="attributes+,+macros"]
 ----
-git clone https://github.com/OpenShiftDemos/openshift-gitops-workshop ~/openshift-gitops-workshop
+git clone https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop ~/openshift-gitops-workshop
 ----
 
 All of the example content will be located in:
@@ -95,7 +95,7 @@ DevSpaces] is a better choice.
 
 === Review the Application Manifests
 
-For this first lab, the application manifests are located link:https://github.com/OpenShiftDemos/openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd[here,window='_blank'] and include a Deployment, Service, and Route.
+For this first lab, the application manifests are located link:https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd[here,window='_blank'] and include a Deployment, Service, and Route.
 If you want to review these in your terminal, the files can be found here:
 
 `~/openshift-gitops-workshop/documentation/modules/ROOT/examples/bgd`
@@ -136,10 +136,10 @@ link:https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
 CR (CustomResource)^] in order to have Argo CD apply these manifests in your
 cluster.
 
-Let's review the `Application` manifest used to deploy this application (found link:https://github.com/OpenShiftDemos/openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd-app.yaml[here,window="_blank"])
+Let's review the `Application` manifest used to deploy this application (found link:https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd-app.yaml[here,window="_blank"])
 and break this down a bit:
 
-.link:https://github.com/OpenShiftDemos/openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd-app.yaml[bgd-app.yaml,window="_blank"]
+.link:https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop/blob/master/documentation/modules/ROOT/examples/bgd-app.yaml[bgd-app.yaml,window="_blank"]
 [source,yaml,subs="+macros,attributes+"]
 ----
 apiVersion: argoproj.io/v1alpha1
@@ -153,7 +153,7 @@ spec:
   project: default <2>
   source: <3>
     path: documentation/modules/ROOT/examples/bgd
-    repoURL: https://github.com/OpenShiftDemos/openshift-gitops-workshop
+    repoURL: https://gitlab.com/gitlab-partners-public/red-hat-demos/jay-howell-openshift-gitops-workshop
     targetRevision: master
   syncPolicy: <4>
     automated:
