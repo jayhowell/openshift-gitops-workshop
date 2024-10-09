@@ -2,7 +2,7 @@
 include::_attributes.adoc[]
 
 
-=== *Deploying Policies with Policy Generator*
+== *Deploying Policies with Policy Generator*
 
 This Policy Generator definition will achieve 2 configuration policies:
 
